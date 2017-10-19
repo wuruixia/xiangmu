@@ -1,0 +1,295 @@
+@import url('base.css');
+/* 头部开始 */
+.head-box{
+	width: 1100px;
+	height: 120px;
+	padding: 28px 40px;
+	margin: 0 auto;
+}
+.headleft{
+	width:70px;
+	height:70px;
+	float: left;
+
+}
+.headleft img{
+	width:100%;
+	height:100%;
+}
+.xian{
+	height: 60px;
+	width: 1px;
+	background: #666666;
+	float: left;
+	margin:0 80px;
+}
+.head-box a{
+	display: block;
+	float: left;
+	width:120px;
+	height: 50px;
+	padding: 10px 0;
+	border-radius: 50%;
+	margin-right: 40px;
+}
+.head-box a:last-of-type{
+	margin-right: 0;
+}
+.head-box a p{
+	width: 120px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 900;
+	background: #fff;
+	
+}
+.head-box a:hover{
+	color: #e87193;
+	background: pink;
+}
+/* 头部结束 */
+/* banner开始 */
+.ban-box{
+	width: 100%;
+	height: 100%;
+	
+}
+.ban-box img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+
+/* banner结束 */
+/* 介绍开始 */
+.jie-box{
+	width: 100%;
+	height: 700px;
+	background: url('../img/f08_0sxw.gif') no-repeat center;
+	background-size: 100% 100%;
+}
+.jiebox{
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.jie{
+	width:200px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 60px;
+	
+}
+.jie p{
+	float: left;
+	font-size: 16px;
+	color:rgb(143, 98, 40);
+	font-weight: 800;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.jie img{
+	float: left;
+
+}
+.jie img:first-of-type{
+	transform: rotateY(180deg);
+}
+.jie1{
+	width: 1100px;
+	height: 20px;
+	margin: 10px auto;
+}
+.jie1 p{
+	font-size:14px; 
+	color: rgb(191, 162, 123);
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.jie-center{
+	width: 680px;
+	height: 36px;
+	margin: 20px auto;
+	background:#BF803E;
+
+}
+.jie-center li{
+	width: 136px;
+	height: 36px;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+
+}
+.jie-center li a{
+	color: #fff;
+}
+.jie-center li:nth-of-type(5){
+	background:#AC6E2E;
+}
+.jie-bottom{
+	width: 1100px;
+	height: 552px;
+	margin: 0 auto;
+	position: absolute;
+	top:140px;
+	left: 0;
+}
+.jie-bottom li{
+	width: 268px;
+	height: 271px;
+	margin-right: 9px;
+	float: left;
+	margin-bottom: 9px;
+	border: 1px solid #c3bbbb;
+	cursor: pointer;
+}
+.jie-bottom li:nth-of-type(4){
+	margin-right: 0;
+}
+.jie-bottom li:nth-of-type(8){
+	margin-right: 0;
+}
+.jie-bottom li img{
+	width: 236px;
+	height: 175px;
+	display: block;
+	margin: 10px auto;
+}
+.jie-bottom h5,.jie-bottom p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-left: 16px;
+	color: #8F6228;
+}
+.jie-bottom p{
+	color: #E1AB00;
+}
+.jie-bottom p:hover{
+	color: #1852d8;
+}
+.jie-bottom .sprice{
+	font-size: 14px;
+	line-height: 22px;
+	margin-left: 16px;
+	color: #8F6228;
+}
+.jie-bottom .sprice span{
+	color: red;
+}
+.jie-bottom li:hover{
+	border: 1px solid #E1AB00;
+}
+.mask{
+	width:400px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 0 0 190px rgba(0, 0, 0, 0.6);
+	transform: scale(0, 0);
+	transition: 0.5s;
+
+}
+.mask img{
+	width: 100%;
+	height: 100%;
+}
+.active{
+	transform: scale(1, 1);
+}
+.btnL,.btnR{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		text-align: center;
+		bottom: 0;
+		margin: auto;
+		
+	}
+/* .btnl i,.btnr i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+} */
+.btnL{
+		left: -80px;
+}
+.btnR{
+		right: -80px;
+}
+
+.mask .close{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top:-25px;
+		left:375px;
+		text-align: center;
+	}
+.mask .close i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+	}
+/* 介绍结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: 207px;
+	background:rgb(246, 165, 159);
+}
+.zuibox{
+	width: 1100px;
+	height: 207px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.zui-top{
+	width: 437px;
+	margin: 0 auto;
+	height: 33px;
+    text-align: center;
+}
+.zui-top p,.zui-top span{
+	font-size: 14px;
+	line-height: 33px;
+	float: left;
+	color:rgb(255, 204, 206);
+	
+    font-weight: 800;
+}
+.zui-top span{
+	margin: 0 20px;
+	color:#ffccce;
+}
+.zui-center{
+	width: 1100px;
+	height: 1px;
+	background:rgb(255, 204, 206);
+	margin-top: 20px; 
+}
+.zui-botton{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color:rgb(255, 204, 206);
+	margin-top: 20px;
+}
+/* 最后结束 */

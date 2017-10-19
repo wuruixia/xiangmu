@@ -1,0 +1,204 @@
+@import url('base.css');
+/* 头部开始 */
+.head-box{
+	width: 1100px;
+	height: 120px;
+	padding: 28px 40px;
+	margin: 0 auto;
+}
+.headleft{
+	width:70px;
+	height:70px;
+	float: left;
+
+}
+.headleft img{
+	width:100%;
+	height:100%;
+}
+.xian{
+	height: 60px;
+	width: 1px;
+	background: #666666;
+	float: left;
+	margin:0 80px;
+}
+.head-box a{
+	display: block;
+	float: left;
+	width:120px;
+	height: 50px;
+	padding: 10px 0;
+	border-radius: 50%;
+	margin-right: 40px;
+}
+.head-box a:last-of-type{
+	margin-right: 0;
+}
+.head-box a p{
+	width: 120px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 900;
+	background: #fff;
+	
+}
+.head-box a:hover{
+	color: #e87193;
+	background: pink;
+}
+/* 头部结束 */
+/* banner开始 */
+.ban-box{
+	width: 100%;
+	height: 100%;
+	
+}
+.ban-box img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+
+/* banner结束 */
+/* 介绍开始 */
+.jie-box{
+	width: 100%;
+	height: 580px;
+	background: url('../img/f08_0sxw.gif') no-repeat center;
+	background-size: 100% 100%;
+}
+.jiebox{
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+}
+.jie{
+	width:200px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 60px;
+	
+}
+.jie p{
+	float: left;
+	font-size: 16px;
+	color:rgb(143, 98, 40);
+	font-weight: 800;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.jie img{
+	float: left;
+
+}
+.jie img:first-of-type{
+	transform: rotateY(180deg);
+}
+.jie1{
+	width: 1100px;
+	height: 20px;
+	margin: 10px auto;
+}
+.jie1 p{
+	font-size:14px; 
+	color: rgb(191, 162, 123);
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.lian{
+	width: 1100px;
+	height: 350px;
+	margin: 20px auto;
+	font-size: 16px;
+	line-height:50px;
+	padding-top: 40px;
+	color:rgb(137, 137, 137);
+	border: 1px solid #E1AB00;
+}
+.lian-left{
+	width:700px;
+	height: 256px; 
+	float: left;
+	margin: 0 40px;
+}
+.lian-left img{
+	width:700px;
+	height: 256px; 
+	float: left;
+}
+.lian p i{
+	font-size: 26px;
+	color: #E1AB00;
+	margin-right: 20px;
+}
+.liu-bottom{
+	width: 610px;
+	height: 80px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.liu-bottom p{
+	font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(191, 162, 123); 
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.liu-bottom p:nth-of-type(2){
+	 text-transform: uppercase;
+	 font-size: 14px;
+	letter-spacing: 3px;
+    color: rgb(191, 162, 123); 
+    text-align: center;
+    line-height: 30px;
+}
+/* 介绍结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: 207px;
+	background:rgb(246, 165, 159);
+}
+.zuibox{
+	width: 1100px;
+	height: 207px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.zui-top{
+	width: 437px;
+	margin: 0 auto;
+	height: 33px;
+    text-align: center;
+}
+.zui-top p,.zui-top span{
+	font-size: 14px;
+	line-height: 33px;
+	float: left;
+	color:rgb(255, 204, 206);
+	
+    font-weight: 800;
+}
+.zui-top span{
+	margin: 0 20px;
+	color:#ffccce;
+}
+.zui-center{
+	width: 1100px;
+	height: 1px;
+	background:rgb(255, 204, 206);
+	margin-top: 20px; 
+}
+.zui-botton{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color:rgb(255, 204, 206);
+	margin-top: 20px;
+}
+/* 最后结束 */

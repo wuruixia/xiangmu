@@ -1,0 +1,291 @@
+@import url('base.css');
+/* 头部开始 */
+.head-box{
+	width: 1100px;
+	height: 120px;
+	padding: 28px 40px;
+	margin: 0 auto;
+}
+.headleft{
+	width:70px;
+	height:70px;
+	float: left;
+
+}
+.headleft img{
+	width:100%;
+	height:100%;
+}
+.xian{
+	height: 60px;
+	width: 1px;
+	background: #666666;
+	float: left;
+	margin:0 80px;
+}
+.head-box a{
+	display: block;
+	float: left;
+	width:120px;
+	height: 50px;
+	padding: 10px 0;
+	border-radius: 50%;
+	margin-right: 40px;
+}
+.head-box a:last-of-type{
+	margin-right: 0;
+}
+.head-box a p{
+	width: 120px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 900;
+	background: #fff;
+	
+}
+.head-box a:hover{
+	color: #e87193;
+	background: pink;
+}
+/* 头部结束 */
+/* banner开始 */
+.ban-box{
+	width: 100%;
+	height: 100%;
+	
+}
+.ban-box img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+
+/* banner结束 */
+/* 分类开始 */
+.fen-box{
+	width: 100%;
+	height:300px;
+	/* background: #80D47C; */
+	margin: 0 auto;
+}
+.fenlei1{
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.fenlei{
+	width: 181px;
+	height: 181px;
+	background: yellow;
+	float: left;
+	border-radius: 50%;
+	position: relative;
+
+}
+.fenlei img{
+	width: 181px;
+	height: 181px;
+	border-radius: 50%;
+	
+
+}
+.fenlei p{
+	width: 181px;
+	font-size: 20px;
+	color: #666;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+}
+/* 分类结束 */
+/* 列表开始 */
+.lie-box{
+    width: 100%;
+    height: 700px;
+    background:rgb(248, 245, 188);
+    padding-top: 53px;
+}
+.biao-box{
+	width: 1100px;
+	height: 594px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 25px 30px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.biao-left{
+	/* width: 48px; */
+	/* height: 554px; */
+	float: left;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.biao-left img{
+	width:100%;
+	height: 100%;
+}
+.biao-right{
+	width: 997px;
+	height: 562px;
+}
+.biao-right li{
+	width: 242px;
+	height: 271px;
+	margin-right: 9px;
+	float: left;
+	border: 1px solid #c3bbbb;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.biao-right li:nth-of-type(4){
+	margin-right: 0;
+}
+.biao-right li:nth-of-type(8){
+	margin-right: 0;
+}
+.biao-right img{
+	width: 210px;
+	height: 175px;
+	display: block;
+	margin: 0 auto;
+}
+.biao-right h5,.biao-right p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-left: 16px;
+	color: #8F6228;
+}
+.biao-right p{
+	color: #E1AB00;
+}
+.biao-right p:hover{
+	color: #1852d8;
+}
+.biao-right .sprice{
+	font-size: 14px;
+	line-height: 22px;
+	margin-left: 16px;
+	color: #8F6228;
+}
+.biao-right .sprice span{
+	color: red;
+}
+.biao-right li:hover{
+	border: 1px solid #E1AB00;
+}
+.mask{
+	width:400px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 0 0 190px rgba(0, 0, 0, 0.6);
+	transform: scale(0, 0);
+	transition: 0.5s;
+
+}
+.mask img{
+	width: 100%;
+	height: 100%;
+}
+.active{
+	transform: scale(1, 1);
+}
+.btnL,.btnR{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		text-align: center;
+		bottom: 0;
+		margin: auto;
+		
+	}
+.btnL i,.btnR i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+}
+.btnL{
+		left: -80px;
+}
+.btnR{
+		right: -80px;
+}
+
+.mask .close{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top:-25px;
+		left:375px;
+		text-align: center;
+	}
+.mask .close i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+	}
+/* 列表结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: 207px;
+	background:rgb(246, 165, 159);
+}
+.zuibox{
+	width: 1100px;
+	height: 207px;
+	margin: 0 auto; 
+	padding-top: 50px;
+}
+.zui-top{
+	width: 437px;
+	margin: 0 auto;
+	height: 33px;
+    text-align: center;
+}
+.zui-top p,.zui-top span{
+	font-size: 14px;
+	line-height: 33px;
+	float: left;
+	color:rgb(255, 204, 206);
+	
+    font-weight: 800;
+}
+.zui-top span{
+	margin: 0 20px;
+	color:#ffccce;
+}
+.zui-center{
+	width: 1100px;
+	height: 1px;
+	background:rgb(255, 204, 206);
+	margin-top: 20px; 
+}
+.zui-botton{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color:rgb(255, 204, 206);
+	margin-top: 20px;
+}
+/* 最后结束 */
